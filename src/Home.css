@@ -1,0 +1,71 @@
+.home__btn {
+    text-decoration: none;
+}
+.home {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.home__img > img{
+    width: 60vh;
+    height: 80vh;
+}
+.home__img {
+    align-items: center;
+}
+.home__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 30px;
+}
+.home__wrapper__div1 {
+    margin-top: 170px;
+    text-align: center;
+}
+.home__wrapper__div2 {
+    margin-top: 25px;
+}
+.home__wrapper__div1 > h2 > span {
+    color: #4f4ffc;
+}
+.shk {
+    transform: translate3d(0, 0, 0);
+    backface-visibility: hidden;
+    animation-name: shakeMe;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes shakeMe {
+    2%, 18% {
+        transform: translate3d(-5px, 0, 0);
+    }
+
+    4%, 16% {
+        transform: translate3d(5px, 0, 0);
+    }
+
+    6%, 10%, 14% {
+        transform: translate3d(-5px, 0, 0);
+    }
+
+    8%, 12% {
+        transform: translate3d(5px, 0, 0);
+    }
+    
+    18.1% {
+        transform: translate3d(0px, 0, 0);
+    }
+}
+.home__wrapper > p {
+    color: grey;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+@media only screen and (max-width: 735px) {
+    .home__wrapper__div1 {
+        margin-top: 50px;
+    }
+}

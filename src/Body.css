@@ -1,0 +1,20 @@
+.body__cards {
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+}
+.body__subHeader__text {
+    color: rgb(58, 58, 238);
+    font-size: 13px;
+    font-weight: normal;
+}
+.body__subHeader {
+    padding-top: 20px;
+    padding-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

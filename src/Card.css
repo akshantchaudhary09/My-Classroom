@@ -1,0 +1,56 @@
+.card {
+    border: 1px solid rgb(211, 211, 211);
+    height: 250px;
+    width: 300px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 2px;
+    margin-bottom: 8px;
+}
+.card:hover {
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+.card__header {
+    background-color: rgb(48, 150, 48);
+    border-radius: 10px 10px 0px 0px;
+    height: 100px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.card__header > p {
+    color: aliceblue;
+}
+.card__avatar {
+    margin-left: 200px;
+    margin-top: -40px;
+}
+.card__header__title {
+    
+    font-size: 20px;
+    color: aliceblue;
+
+}
+.card__header__title:link {
+    text-decoration: none;
+}
+
+.card__header__title:visited {
+text-decoration: none;
+}
+
+.card__header__title:hover {
+text-decoration: underline;
+}
+
+.card__header__title:active {
+text-decoration: underline;
+}
+.blue {
+    background-color: rgb(82, 82, 255);
+}
+.grey {
+    background-color: rgb(143, 142, 142);
+}
+.yellow {
+    background-color: rgb(175, 175, 2);
+}

@@ -1,0 +1,25 @@
+.header {
+    display: flex;
+    align-items: center;
+    position: sticky;
+    height: 60px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    justify-content: space-between;
+}
+.header__boxLeft {
+    display: flex;
+    align-items: center;
+}
+.header__boxRight {
+    display: flex;
+    align-items: center;
+}
+.header__boxLeft > h2 { 
+    font-family: Arial, Helvetica, sans-serif;   
+    font-weight: lighter;
+    color: rgb(109, 109, 109);
+}
+.header__boxLeft > h2 > span {
+    color: rgb(253, 84, 84);
+    font-weight: bold;
+}
